@@ -9,4 +9,5 @@
 - Downloaded Calibre and viewed ePub
 - Downloaded JabRef
 - Worked through Intro page on GitHub
+- Created pull requests for tech summaries
 - Attended class on 9/14
