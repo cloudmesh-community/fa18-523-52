@@ -11,3 +11,9 @@
 - Worked through Intro page on GitHub
 - Created pull requests for tech summaries
 - Attended class on 9/14
+
+09/15/2018-09/22/2018
+- Began researching tech summaries (4 due Oct 15)
+- Viewed 2.8 epub Example Artificats for project
+- first pg due (abstract) soon...
+- Attended lecture
