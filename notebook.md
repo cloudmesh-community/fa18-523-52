@@ -17,3 +17,9 @@
 - Viewed 2.8 epub Example Artificats for project
 - first pg due (abstract) soon...
 - Attended lecture
+
+09/23/2018-09/30/18
+- Attended lecture
+- Looking at ideas for project
+- Began working on tech summaries
+- Looking through lecture videos
