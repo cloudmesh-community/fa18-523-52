@@ -6,3 +6,13 @@ owner:
   lastname: "Heine"
   hid: "fa18-523-52"
   community: "e534"
+technologies:
+(These are pull file links. Tech summaries are completed, but pull requests have not been answered yet.)
+- url: https://github.com/cloudmesh/technologies/pull/212/files
+- url: https://github.com/cloudmesh/technologies/pull/214/files
+- url: https://github.com/cloudmesh/technologies/pull/217/files
+- url: https://github.com/cloudmesh/technologies/pull/218/files
+paper:
+  - keyword:
+project:TBD
+  - keyword:
