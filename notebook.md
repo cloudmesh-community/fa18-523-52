@@ -35,3 +35,10 @@
 - began abstract of paper
 - attended lecture
 - researching project topics
+
+10/21/18-10/27/18
+- Progressing length of paper
+- Found a better data set for project
+- Researching technologies/tools to use for project
+- Began python code to read/manipulate data set
+- Attending discussion
