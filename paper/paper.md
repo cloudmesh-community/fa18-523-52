@@ -1,8 +1,11 @@
-Guided Analytics Using Knime :smiley:
+Guided Analytics Using Knime :hand:
 
 Anna Heine 
+
 Indiana University, Bloomington 
+
 avheine@iu.edu
+
 hid: fa18-523-52
 
 Abstract
@@ -24,5 +27,3 @@ KNIME is a data analysis software platform that allows for easy read and manipul
 
 Acknowledgement
 I would like to thank Professor Gregor von Laszewski for providing the tools and information necessary for completion of this paper. 
-
-References
