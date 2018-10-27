@@ -1,4 +1,4 @@
-Guided Analytics Using Knime
+# Guided Analytics Using Knime :hand: fa18-523-52
 
 Anna Heine 
 Indiana University Bloomington 
