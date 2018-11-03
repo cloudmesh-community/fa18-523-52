@@ -4,9 +4,8 @@
 | avheine@iu.edu
 | Indiana University 
 | hid: fa18-523-52
-| github: [:cloud:] (https://github.com/cloudmesh-community/fa18-523-52/blob/master/paper/paper.md)
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-52/blob/master/paper/paper.md)
 
-:o: doe not follow our format
 
 ---
 Keywords: KNIME, workflow, workbench
