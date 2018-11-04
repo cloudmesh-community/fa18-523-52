@@ -1,4 +1,4 @@
-# Guided Analytics Using Knime :smiley: fa18-523-52
+# Guided Analytics Using Knime :wave: fa18-523-52
 
 | Anna Heine
 | avheine@iu.edu
@@ -6,6 +6,8 @@
 | hid: fa18-523-52
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-52/blob/master/paper/paper.md)
 
+
+:o: lots of refernce missing. you need to use bibtex in paper.bib and use them here. you can reuse any bib from any student or the technology handbook
 
 ---
 Keywords: KNIME, workflow, workbench
