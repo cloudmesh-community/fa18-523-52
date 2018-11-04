@@ -4,10 +4,18 @@
 | avheine@iu.edu
 | Indiana University 
 | hid: fa18-523-52
-| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-52/blob/master/paper/paper.md)
+| git: [:cloud:](https://github.com/cloudmesh-community/fa18-523-52/blob/master/paper/paper.md)
 
 
 :o: lots of refernce missing. you need to use bibtex in paper.bib and use them here. you can reuse any bib from any student or the technology handbook
+
+:o: maybe the architecture diagram would help. I am not sure I understand what thsi technology is about from this description
+
+:o: no mentioning of the workflow hub
+
+:o: no mentioning of integration with azure, aws
+
+:o: no screenshots demonstrating it
 
 ---
 Keywords: KNIME, workflow, workbench
@@ -15,14 +23,14 @@ Keywords: KNIME, workflow, workbench
 
 ## Abstract
 
-KNIME is an open source data analytics software that creates services and 
+KNIME [:o: ] is an open source data analytics software that creates services and 
 applications for data science projects. KNIME allows its users to create visual
 workflows with a user-friendly drag and drop graphical interface that depletes
 the need for any programming. However, KNIME does allow implementation of other
-scripting languages such as Python or R that creates connections to abilities 
+scripting languages such as Python [:o: ]  or R [:o: ] that creates connections to abilities 
 within Apache Spark or other machine learning tools. KNIME allows imports of 
-datasets from a variety of formats, some of which include CSV, PDF, XLS, JSON, 
-XML, and more. It also supports several unstructured data types from images, 
+datasets from a variety of formats, some of which include CSV [:o: ] , PDF [:o: ] , XLS [:o: ] , JSON [:o: ] , 
+XML [:o: ] , and more. It also supports several unstructured data types from images, 
 documents, and certain networks. KNIME operates by a node system that includes 
 embedded modules that help its users build their workflow. With this node system, 
 users can make changes at every step of their analysis to ensure the most current 
@@ -32,7 +40,7 @@ implementations. Users can shape their data by a variety of mathematical models
 such as statistical tests, standard deviations, and means. Users can even select 
 specific features for use in possible machine learning datasets and apply filters 
 to mark out some of the data if needed. KNIME can be exported in many formats such
-as PDF, CSV, PowerPoint, and more. 
+as PDF, CSV, PowerPoint [:o: ] , and more. 
 
 
 ## Introduction
