@@ -86,10 +86,13 @@ on the left-hand side into the workflow space. To increase user collaboration an
 KNIME also includes a Workflow Hub [@fa18-523-52-hub]. This hub allows users to share their 
 workflows and make comments or suggest improvements to their designs. The components of a 
 KNIME server after installation are hosted on the same machine. The components include:
-a workflow repository, the executor, the server. +@fig:architecture shows a diagram 
-displaying the simplicity of KNIME's architecture. 
+a workflow repository, the executor, the server. +@fig:diagram shows the simple architecture
+of KNIME's server for a single user. +@fig:architecture shows the basic KNIME platform setup 
+with graphs, repositories, and the workbench. 
 
-![KNIME Architecture Diagram](images/architecture.png){#fig:architecture}
+![KNIME Diagram](images/diagram.png){#fig:diagram}
+
+![KNIME Architecture](images/architecture.png){#fig:architecture}
 
 An example of big data analysis hosted by KNIME is a store trying to compare its products
 sold over multiple store locations. The first step in the visualization process would be 
