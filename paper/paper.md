@@ -15,7 +15,7 @@
 
 :o: no mentioning of integration with azure, aws
 
-:o: no screenshots demonstrating it
+:o: I propose to merege abstracts and conclusion in regular text to make this a chapter so we can put it in the handbook
 
 ---
 Keywords: KNIME, workflow, workbench
