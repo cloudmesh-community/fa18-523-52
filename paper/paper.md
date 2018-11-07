@@ -23,24 +23,24 @@ Keywords: KNIME, workflow, workbench
 
 ## Abstract
 
-KNIME [:o: ] is an open source data analytics software that creates services and 
-applications for data science projects. KNIME allows its users to create visual
-workflows with a user-friendly drag and drop graphical interface that depletes
-the need for any programming. However, KNIME does allow implementation of other
-scripting languages such as Python [:o: ]  or R [:o: ] that creates connections to abilities 
-within Apache Spark or other machine learning tools. KNIME allows imports of 
-datasets from a variety of formats, some of which include CSV [:o: ] , PDF [:o: ] , XLS [:o: ] , JSON [:o: ] , 
-XML [:o: ] , and more. It also supports several unstructured data types from images, 
-documents, and certain networks. KNIME operates by a node system that includes 
-embedded modules that help its users build their workflow. With this node system, 
-users can make changes at every step of their analysis to ensure the most current 
+KNIME [@fa18-523-52-KNIME] stands for KoNstanz Information MinEr and is an open source data 
+analytics software that creates services and applications for data science projects. KNIME 
+allows its users to create visual workflows with a user-friendly drag and drop graphical interface 
+that depletes the need for any programming. However, KNIME does allow implementation of other
+scripting languages such as Python [@fa18-523-52-KNIME]  or R [@fa18-523-52-KNIME] that
+creates connections to abilities within Apache Spark or other machine learning tools. KNIME 
+allows imports of datasets from a variety of formats, some of which include CSV [@fa18-523-52-machine] ,
+PDF [@fa18-523-52-machine] , JSON [@fa18-523-52-JSON] and more. It also supports several 
+unstructured data types from images, documents, and certain networks. KNIME operates by a node
+system that includes embedded modules that help its users build their workflow. With this node 
+system, users can make changes at every step of their analysis to ensure the most current 
 version. KNIME also provides detailed visualizations from a set of defined graphs 
 and charts which can lead to predictive analyses and machine learning 
 implementations. Users can shape their data by a variety of mathematical models 
 such as statistical tests, standard deviations, and means. Users can even select 
 specific features for use in possible machine learning datasets and apply filters 
 to mark out some of the data if needed. KNIME can be exported in many formats such
-as PDF, CSV, PowerPoint [:o: ] , and more. 
+as PDF, CSV and more. 
 
 
 ## Introduction
@@ -82,7 +82,14 @@ KNIME website and obtain the download. Then, install KNIME and set its working d
 for KNIME to store its files in. To set up a KNIME workflow, go to the File menu on the
 platform and choose New. Give your workflow a name and then click Finish. This process
 establishes a basic, empty workflow in which users can drag nodes from the repositories 
-on the left-hand side into the workflow space. 
+on the left-hand side into the workflow space. To increase user collaboration and support, 
+KNIME also includes a Workflow Hub [@fa18-523-52-hub]. This hub allows users to share their 
+workflows and make comments or suggest improvements to their designs. The components of a 
+KNIME server after installation are hosted on the same machine. The components include:
+a workflow repository, the executor, the server. +@fig:architecture shows a diagram 
+displaying the simplicity of KNIME's architecture. 
+
+![KNIME Architecture Diagram](images/architecture.png){#fig:architecture}
 
 An example of big data analysis hosted by KNIME is a store trying to compare its products
 sold over multiple store locations. The first step in the visualization process would be 
@@ -95,18 +102,33 @@ to use for further prediction. The next few steps are used in visualization and 
 of user data. Under the Views tab, the user can search for different graphs or plots. A 
 scatter plot, in this case, would be a great way to visualize data from multiple items 
 within a store. You then must drag and drop it and connect it within the workflow like 
-before. You can then configure just how many rows that you would like to look at. KNIME 
-also includes nodes that can show missing values from certain datasets. KNIME includes a 
-special node in which users may find imputations in their dataset. This is displayed as 
-Missing Values in the output portal. From here, you can choose from a variety of options 
-that allow handling of these imputations. For example, with strings you can move forward 
-and backwards in between rows, create a custom row, or remove a row. You can also 
+before. You can then configure just how many rows that you would like to look at.
++@fig:kmeans shows an example of user analysis by the drag and drop method.
+
+![KNIME Workflow Visualization](images/kmeans_flow.png){#fig:kmeans}
+
+
+KNIME also includes nodes that can show missing values from certain datasets. KNIME 
+includes a special node in which users may find imputations in their dataset. This is 
+displayed as Missing Values in the output portal. From here, you can choose from a variety
+of options that allow handling of these imputations. For example, with strings you can move
+forward and backwards in between rows, create a custom row, or remove a row. You can also 
 manipulate numerical data values by performing several mathematical functions. The basic
 limitations for KNIME include visualizations that are not extremely neat or detailed as 
 other software. The software's updates sometimes cause user issue and result in necessary 
 re-installation. As this is not as popular of a program as Python or other editing 
 platforms, the community does not have as rich of a support system, therefore, users 
 sometimes struggle with researching issues. 
+
+KNIME has the ability to be integrated with other techonlogies for larger open-source 
+projects. These cloud services allow for user's projects to be analyzed even further. 
+For example, KNIME can be used with Amazon AWS [@fa18-523-52-aws] and 
+Azure [@fa18-523-52-azure]. KNIME's platform can be hosted on Microsoft Azure Cloud 
+Services. Azure allows KNIME to perform its analytical, machine learning, and deep 
+learning tasks on its integrated server. This application can be downloaded from Azure's 
+Marketplace. KNIME can also be incorporated with Amazon AWS. When KNIME is connected to 
+AWS resources, users can leverage the memory available while connected to the relational 
+database service to construct SQL queries visually. 
 
 ## Conclusion
 
