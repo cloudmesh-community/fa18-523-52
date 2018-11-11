@@ -1,4 +1,4 @@
-# Guided Analytics Using Knime :wave: fa18-523-52
+# Guided Analytics Using Knime :smiley: fa18-523-52
 
 | Anna Heine
 | avheine@iu.edu
@@ -21,7 +21,7 @@
 Keywords: KNIME, workflow, workbench
 ---
 
-## Abstract
+## Introduction
 
 KNIME [@fa18-523-52-KNIME] stands for KoNstanz Information MinEr and is an open source data 
 analytics software that creates services and applications for data science projects. KNIME 
@@ -30,7 +30,8 @@ that depletes the need for any programming. However, KNIME does allow implementa
 scripting languages such as Python [@fa18-523-52-KNIME]  or R [@fa18-523-52-KNIME] that
 creates connections to abilities within Apache Spark or other machine learning tools. KNIME 
 allows imports of datasets from a variety of formats, some of which include CSV [@fa18-523-52-machine] ,
-PDF [@fa18-523-52-machine] , JSON [@fa18-523-52-JSON] and more. It also supports several 
+PDF [@fa18-523-52-machine] , JSON [@fa18-523-52-JSON] and more. The workflows and visualizations that 
+KNIME produces allows export in many of these formats as well. It also supports several 
 unstructured data types from images, documents, and certain networks. KNIME operates by a node
 system that includes embedded modules that help its users build their workflow. With this node 
 system, users can make changes at every step of their analysis to ensure the most current 
@@ -39,11 +40,7 @@ and charts which can lead to predictive analyses and machine learning
 implementations. Users can shape their data by a variety of mathematical models 
 such as statistical tests, standard deviations, and means. Users can even select 
 specific features for use in possible machine learning datasets and apply filters 
-to mark out some of the data if needed. KNIME can be exported in many formats such
-as PDF, CSV and more. 
-
-
-## Introduction
+to mark out some of the data if needed. 
 
 KNIME is a platform that can perform intense data analytics on a graphical user 
 interface and incorporate a user-friendly workflow. It incorporates large or small
@@ -131,15 +128,11 @@ Services. Azure allows KNIME to perform its analytical, machine learning, and de
 learning tasks on its integrated server. This application can be downloaded from Azure's 
 Marketplace. KNIME can also be incorporated with Amazon AWS. When KNIME is connected to 
 AWS resources, users can leverage the memory available while connected to the relational 
-database service to construct SQL queries visually. 
-
-## Conclusion
-
-KNIME is a data analysis software platform that allows for easy read and manipulation of 
-large datasets that can ultimately be used to make inferences and predictions. Its 
-user-friendly interface allows for a broad integration of users and sometimes more efficient
-workflows. KNIME has several applications for its users such as data modeling, 
-machine learning, predictive analysis, and more. After visualization, users can extract 
-specific features from their data and implement it into a model of their choice, which can
-then be exported as a CSV file. 
+database service to construct SQL queries visually. KNIME is a data analysis software 
+platform that allows for easy read and manipulation of large datasets that can ultimately be
+used to make inferences and predictions. Its user-friendly interface allows for a broad 
+integration of users and sometimes more efficient workflows. KNIME has several applications 
+for its users such as data modeling, machine learning, predictive analysis, and more. After 
+visualization, users can extract specific features from their data and implement it into a 
+model of their choice, which can then be exported as a CSV file. 
 
