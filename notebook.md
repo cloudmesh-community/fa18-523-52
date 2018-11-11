@@ -36,9 +36,20 @@
 - attended lecture
 - researching project topics
 
-10/21/18-10/27/18
+10/21/18-10/28/18
 - Progressing length of paper
 - Found a better data set for project
 - Researching technologies/tools to use for project
 - Began python code to read/manipulate data set
 - Attending discussion
+
+10/28/18-11/04/18
+- Adjusted errors for technology summaries
+- Submitted 2 page paper
+- created intital code for project
+
+11/04/18-11/11/18
+- Housekeeping fixes on tech summaries and paper
+- added images to paper
+- continued code for project
+- added abstract and other elements to project.md
