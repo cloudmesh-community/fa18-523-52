@@ -14,7 +14,7 @@ fa18-532-52, lesion, medical
 
 ---
 
-Abstract
+##Abstract
 
 One major area that is being utilized highly today within big data platforms is
 that of medical image collection. Medical image datasets are often used as 
@@ -34,7 +34,7 @@ individual donation is tracked by its patient identification number, image
 identification number, donor age, donor sex, localization on the body, and a 
 final inclusion reasoning. 
 
-Introduction
+##Introduction
 
 The big data revolution has changed multiple industries around the world, one of
 which largely includes the field of medicine. The role of big data in the medical 
@@ -83,13 +83,13 @@ false-negative uncertainties [@fa18-523-52-digital]. However, with big datasets 
 of computer algorithms, there has been a significant increase in diagnostic accuracy -less 
 than 5% error rates. 
 
-Requirements
+##Requirements
 
-Design 
+##Design 
 
-Architecture
+##Architecture
 
-Dataset
+##Dataset
 
 The dataset I have chosen is often used in training tools for medical
 professionals and is one of the only few available skin lesion datasets. The HAM10000 
@@ -103,10 +103,10 @@ dataset are given: histopathology (histo), follow-up examination (follow_up), ex
 consensus (consensus), or confirmation via in-vivo confocal microscopy (confocal). Each
 image within the dataset can be tracked by their lesion-id [@fa18-523-52-harvard].
 
-Implementation
+##Implementation
 
-Benchmark
+##Benchmark
 
-Conclusion
+##Conclusion
 
-Acknowledgement
+##Acknowledgement
