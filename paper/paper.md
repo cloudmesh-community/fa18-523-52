@@ -4,8 +4,14 @@
 | avheine@iu.edu
 | Indiana University 
 | hid: fa18-523-52
-| git: [:cloud:](https://github.com/cloudmesh-community/fa18-523-52/blob/master/paper/paper.md)
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-52/blob/master/paper/paper.md)
 
+
+---
+
+Keywords: KNIME, workflow, workbench
+
+---
 
 :o: lots of refernce missing. you need to use bibtex in paper.bib and use them here. you can reuse any bib from any student or the technology handbook
 
@@ -17,9 +23,6 @@
 
 :o: I propose to merege abstracts and conclusion in regular text to make this a chapter so we can put it in the handbook
 
----
-Keywords: KNIME, workflow, workbench
----
 
 ## Introduction
 
