@@ -16,7 +16,7 @@ paper:
     title: Guided Analytics Using Knime
     url: https://github.com/cloudmesh-community/fa18-523-52/blob/master/paper/paper.md
 project:
-  - keyword: TBD
+  - keyword: fa18-523-52, lesion, medical
     title: TBD
     url: https://github.com/cloudmesh-community/fa18-523-52/blob/master/project-report/report.md
-    code: TBD
+    code: https://github.com/cloudmesh-community/fa18-523-52/tree/master/project-code
