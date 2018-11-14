@@ -89,6 +89,67 @@ than 5% error rates.
 
 ## Architecture
 
+Before I made any implementations on this project, I realized that I would be using
+multiple software packages. Therefore, I wanted to ensure that they were all in the
+same place. To do this, I installed Anaconda. Anaconda is an open-source, free
+distribution software with Python and R available packages already installed. It's 
+main purpose is to provide simple tracking of these packages with an easy, user-friendly
+dashboard design[@fa18-523-52-conda]. Each version of its packages are managed by its
+package management system, Conda. In Anaconda, I used Jupyter and Jupyter Notebook to 
+perform most of my data analysis. Jupyter allows for data manipulation across many 
+programming languages. Jupyter is also an open-source web application that allows for 
+distribution of documents, code, and other projects for collaboration. It has many uses:
+data cleansing, statistical data modeling, visualization, machine and deep learning, data
+transformation, and more. Once a project has been created, your work can be output as HTML,
+images, video, or LaTeX[@fa18-523-52-jupyter]. The Notebook specifically can contain both 
+code and text. These formats have the ability to create descriptions and visible output for
+graphs of many types. Jupyter runs via client-server, which means it does not need Internet
+access to be run. Each notebook contains a kernel which controls the execution of the code
+inside it. For example, if you wanted to execute Python code, the notebook would execute
+via the ipython kernel. To manually execute a file, the user must either choose to run 
+each cell one at a time by clicking Run on the left of each line or by cliking on Run All
+in the Cell menu[@fa18-523-52-jupyterNotebook].
+
+NumPy is a package that interacts with Python to provide numerical operations. NumPy uses
+its own defined library to make things like arrays and matrices and invoke operations on 
+them. The most basic object in NumPy is the ndarray object. The ndarray holds arrays of 
+homogeneous data types which are compiled for efficiency. NumPy arrays have a fixed size
+array and are homogeneous, which is different from regular Python arrays. NumPy also has
+vectorized and broadcasting behavior which both work to amplify performance and decrease
+compile time. Vectorized code is simple and easy to read code that typically is prone to 
+less bugs. The code sometimes is mistaken for mathematical notations, but of course, 
+results in Python-looking code. Broadcasting describes the step-by-step behavior of 
+operations. It is beneficial in taking the outer operation of two arrays to make a combined
+array. However, both arrays must be of same dimension[@fa18-523-52-numPy].
+
+
+
+talk about pandas
+
+
+
+
+
+
+## Installation
+To install Jupyter itself you must already have Python 2.7 or Python 3.3 or greater. It
+is recommended to go ahead and download Anaconda, like I did, so that all of your packages 
+are in one place. To download the latest version of Anaconda, follow the code below:
+
+import webbrowser
+webbrowser.open('https://www.anaconda.com/download/')
+
+From there, you will have to choose which operating system to download from. That is all 
+you have to do to install Anaconda. You know have an open platform with many packages 
+for use. One of these packages is Jupyter Notebook. To run Jupyter Notebook the following
+line into the command prompt:
+
+jupyter notebook
+
+Now you can begin using Jupyter's Notebook to create visuals and write code for that
+manipulates your data. NumPy and Pandas are also automatically downloaded with the latest
+version on Anaconda. 
+
 ## Dataset
 
 The dataset I have chosen is often used in training tools for medical
