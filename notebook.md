@@ -52,4 +52,10 @@
 - Housekeeping fixes on tech summaries and paper
 - added images to paper
 - continued code for project
-- added abstract and other elements to project.md
+- added abstract and other elements to project report
+
+11/11/18-11/18/18
+- Handled missing data in dataset
+- deployed data on Jupyter
+- analysed data and made visuals using pandas and numpy
+- updated report, code, and image folders on github
