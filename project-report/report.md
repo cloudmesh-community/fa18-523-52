@@ -135,17 +135,18 @@ talk about pandas
 To install Jupyter itself you must already have Python 2.7 or Python 3.3 or greater. It
 is recommended to go ahead and download Anaconda, like I did, so that all of your packages 
 are in one place. To download the latest version of Anaconda, follow the code below:
-
+```python
 import webbrowser
 webbrowser.open('https://www.anaconda.com/download/')
+```
 
 From there, you will have to choose which operating system to download from. That is all 
 you have to do to install Anaconda. You know have an open platform with many packages 
 for use. One of these packages is Jupyter Notebook. To run Jupyter Notebook the following
 line into the command prompt:
-
+```bash
 jupyter notebook
-
+```
 Now you can begin using Jupyter's Notebook to create visuals and write code for that
 manipulates your data. NumPy and Pandas are also automatically downloaded with the latest
 version on Anaconda. 
