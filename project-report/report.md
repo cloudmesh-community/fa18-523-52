@@ -122,12 +122,23 @@ results in Python-looking code. Broadcasting describes the step-by-step behavior
 operations. It is beneficial in taking the outer operation of two arrays to make a combined
 array. However, both arrays must be of same dimension[@fa18-523-52-numPy].
 
-
-
-talk about pandas
-
-
-
+Pandas is a Python package also automatically downloaded with Anaconda. It provides many
+data analysis features that are widely used in data visualization. Pandas is able to 
+incorporate many types of data formats as well. For example, Pandas can read in tabular 
+data from SQL or Excel, it can obtain ordered or unordered data, arbitrarily matrixed data,
+and it can even read in data that has no labels. Pandas is able to handle missing values and
+also non-floating point data by labeling it as NaN. One important feature I specifically
+used was to convert data that incorporated NumPy structures into DataFrame objects. This 
+feature allowed Pandas to easily read and control the data into an acceptable format that
+was able to successfully create a readable graph. Another convienient tool I used while 
+manipulating my dataset was Pandas ability to slice and create subsets of my data. This 
+allowed me to create new tables and graphs from carefully selected data where I saw possible
+correlations. To create detailed visualizations, Pandas incorporates matplotlib API 
+[@fa18-523-52-pandas]. Matplotlib allows the import of visualization libraries that can be
+read by Pandas. Matplotlib is a 2D plotting library that can be used in Python scripts and
+the Jupyter notebook, which I have previously mentioned. Some examples of the types of plots
+matplotlib includes is histograms, bar charts, scatterplots, errorcharts, power spectra, and
+more[@fa18-523-52-matplotlib]. 
 
 
 
