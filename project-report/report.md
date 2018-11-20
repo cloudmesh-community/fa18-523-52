@@ -128,7 +128,7 @@ df3['localization'] = pd.Series(list(range(len(db))))
 df3.plot(x='localization', y='age')
 ```
 The generated plot is as shown below +@fig:localAge :
-{#fig:localAge}
+![Correlation of localization and age](images/localAge.png){#fig:localAge}
 
 The visualization makes it obvious that there can be many different localizations per age
 group. This visualization also supports the need for varied datasets in the clinical domain. 
@@ -145,7 +145,7 @@ lag separations. If the series is considered non-random, then the autocorrelatio
 non-zero. The graph that is generated shows two horizontal lines that indicate 95% and 99% 
 confidence bands. Using the following code, I have generated the following autocorrelation plot
 +@fig:autocorrelation.
-{#fig:autocorrelation}
+![Autocorrelation](images/autocorrelation.png){#fig:autocorrelation}
 
 Since the values in the above autocorrelation plot are within the 95%, and some very close to the
 99% correlation lines, it can be said that the dataset is far from random. This is promising
