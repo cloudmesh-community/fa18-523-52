@@ -1,0 +1,19 @@
+db['localization'].describe()
+
+count     9919
+unique      15
+top       back
+freq      2185
+
+
+db['age'].describe()
+
+count    9919.000000
+mean       52.067749
+std        16.686741
+min         5.000000
+25%        40.000000
+50%        50.000000
+75%        65.000000
+max        85.000000
+
