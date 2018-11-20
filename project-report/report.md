@@ -85,6 +85,9 @@ than 5% error rates.
 
 ## Requirements
 
+This project requires Python 2.7 or greater to integrate the Pandas and NumPy packages. It 
+also requires at least 420 KB of storage to hold the HAM10000 dataset. 
+
 ## Design 
 
 ## Architecture
