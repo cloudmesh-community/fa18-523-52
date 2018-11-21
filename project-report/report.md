@@ -146,7 +146,7 @@ missed when cleaning the data. Over time, the data is compared to see if it lies
 the data is considered random, the time series autocorrelation will be near zero for all time-
 lag separations. If the series is considered non-random, then the autocorrelations will be 
 non-zero. The graph that is generated shows two horizontal lines that indicate 95% and 99% 
-confidence bands. The following equation represents the autocorrelation dynamic +fig:equation.
+confidence bands. The following equation represents the autocorrelation dynamic +@fig:equation.
 
 ![Autocorrelation Equation](images/autocorrelationEquation.png){#fig:equation}
 
