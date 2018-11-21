@@ -111,6 +111,7 @@ min         5.000000
 75%        65.000000
 max        85.000000
 ```
+
 The first algorithm that was used in my Jupyter-based script was a DataFrame comparison 
 between the localization and age features. This comparison shows the number of patients who
 recorded diagnosed skin lesions for different locations in addition to their differing
@@ -127,7 +128,9 @@ df3 = pd.DataFrame(np.random.randn(1000, 2), columns=['age', 'localization']).cu
 df3['localization'] = pd.Series(list(range(len(db))))
 df3.plot(x='localization', y='age')
 ```
+
 The generated plot is as shown below +@fig:localAge :
+
 ![Correlation of localization and age](images/localAge.png){#fig:localAge}
 
 The visualization makes it obvious that there can be many different localizations per age
@@ -143,8 +146,13 @@ missed when cleaning the data. Over time, the data is compared to see if it lies
 the data is considered random, the time series autocorrelation will be near zero for all time-
 lag separations. If the series is considered non-random, then the autocorrelations will be 
 non-zero. The graph that is generated shows two horizontal lines that indicate 95% and 99% 
-confidence bands. Using the following code, I have generated the following autocorrelation plot
-+@fig:autocorrelation.
+confidence bands. The following equation represents the autocorrelation dynamic +fig:equation.
+
+![Autocorrelation Equation](images/autocorrelationEquation.png){#fig:equation}
+
+Using the following code, I have generated the following autocorrelation plot
++@fig:autocorrelation. 
+
 ![Autocorrelation](images/autocorrelation.png){#fig:autocorrelation}
 
 Since the values in the above autocorrelation plot are within the 95%, and some very close to the
@@ -210,6 +218,7 @@ more[@fa18-523-52-matplotlib].
 To install Jupyter itself you must already have Python 2.7 or Python 3.3 or greater. It
 is recommended to go ahead and download Anaconda, like I did, so that all of your packages 
 are in one place. To download the latest version of Anaconda, follow the code below:
+
 ```python
 import webbrowser
 webbrowser.open('https://www.anaconda.com/download/')
@@ -219,9 +228,11 @@ From there, you will have to choose which operating system to download from. Tha
 you have to do to install Anaconda. You know have an open platform with many packages 
 for use. One of these packages is Jupyter Notebook. To run Jupyter Notebook the following
 line into the command prompt:
+
 ```bash
 jupyter notebook
 ```
+
 Now you can begin using Jupyter's Notebook to create visuals and write code for that
 manipulates your data. NumPy and Pandas are also automatically downloaded with the latest
 version on Anaconda. 
