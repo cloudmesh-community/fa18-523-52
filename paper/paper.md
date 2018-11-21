@@ -90,9 +90,9 @@ a workflow repository, the executor, the server. +@fig:diagram shows the simple 
 of KNIME's server for a single user. +@fig:architecture shows the basic KNIME platform setup 
 with graphs, repositories, and the workbench. 
 
-![KNIME Diagram](images/diagram.png){#fig:diagram}
+![@fa18-523-52-diagram](images/diagram.png){#fig:diagram}
 
-![KNIME Architecture](images/architecture.png){#fig:architecture}
+![@fa18-523-52-architecture](images/architecture.png){#fig:architecture}
 
 An example of big data analysis hosted by KNIME is a store trying to compare its products
 sold over multiple store locations. The first step in the visualization process would be 
@@ -108,7 +108,7 @@ within a store. You then must drag and drop it and connect it within the workflo
 before. You can then configure just how many rows that you would like to look at.
 +@fig:kmeans shows an example of user analysis by the drag and drop method.
 
-![KNIME Workflow Visualization](images/kmeans_flow.png){#fig:kmeans}
+![@fa18-523-52-kmeans](images/kmeans_flow.png){#fig:kmeans}
 
 
 KNIME also includes nodes that can show missing values from certain datasets. KNIME 
