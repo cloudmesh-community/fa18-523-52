@@ -91,73 +91,9 @@ requires Anaconda to access Jupyter Notebook with Numpy and Pandas packages inst
 
 ## Design 
 
-The first part in analyzing the HAM10000 dataset is to acquire it as well as the Anaconda
-platform. Once you access the Jupyter Notebook and import the necessary Python packages,
-you are ready to begin analyzing the data. Jupyter is a great tool to use in data analysis
-becuase you can easily manipulate your code line-by-line. By performing multiple plotting
-algorithms, you get a great visualization of relationships amongst the dataset. Of course,
-there are simple methods to analyze singular features and columns in your dataset. The 
-method below shows multiple statistical analyses on the age feature.
-
-```python
-db['age'].describe()
-
-count    9919.000000
-mean       52.067749
-std        16.686741
-min         5.000000
-25%        40.000000
-50%        50.000000
-75%        65.000000
-max        85.000000
-```
-
-The first algorithm that was used in my Jupyter-based script was a DataFrame comparison 
-between the localization and age features. This comparison shows the number of patients who
-recorded diagnosed skin lesions for different locations in addition to their differing
-ages. The Pandas DataFrame is a class that has the ability to take in a mutable, 
-two-dimensional data structure that contains labeled axes[@fa18-523-52-pandas]. It is known
-as the primary Pandas data structure. There are many examples of methods that can be used
-with this structure on Pandas documentation. To configure a visual of this correlation, the
-following code was imposed:
-
-```python
-#name the database file to your liking after completed download
-db=pd.read_csv('534data.csv')
-df3 = pd.DataFrame(np.random.randn(1000, 2), columns=['age', 'localization']).cumsum()
-df3['localization'] = pd.Series(list(range(len(db))))
-df3.plot(x='localization', y='age')
-```
-
-The generated plot is as shown below +@fig:localAge :
-
-![Correlation of localization and age](images/localAge.png){#fig:localAge}
-
-The visualization makes it obvious that there can be many different localizations per age
-group. This visualization also supports the need for varied datasets in the clinical domain. 
-It ultimately makes it quite difficult to make assumptions on singular lesion samples because
-the locations are varied no matter the age. 
-
-Another algorithm that was imposed on Jupyter Notebook to create a visual analysis was an 
-autocorrelation analysis. Autocorrelations are important in data analysis because they give
-important information regarding the quality of your dataset. Specifically, it checks randomness
-within your values with can also give clues to missing or empty values that you may have 
-missed when cleaning the data. Over time, the data is compared to see if it lies near zero. If
-the data is considered random, the time series autocorrelation will be near zero for all time-
-lag separations. If the series is considered non-random, then the autocorrelations will be 
-non-zero. The graph that is generated shows two horizontal lines that indicate 95% and 99% 
-confidence bands. The following equation represents the autocorrelation dynamic +@fig:equation.
-
-![Autocorrelation Equation](images/autocorrelationEquation.png){#fig:equation}
-
-Using the following code, I have generated the following autocorrelation plot
-+@fig:autocorrelation. 
-
-![Autocorrelation](images/autocorrelation.png){#fig:autocorrelation}
-
-Since the values in the above autocorrelation plot are within the 95%, and some very close to the
-99% correlation lines, it can be said that the dataset is far from random. This is promising
-because it reinforces the quality and trust within the dataset. 
+The design of the project was to obtain the dataset and test it on a number of web services.
+First, I tested it on Jupyter Notebook to get a baseline of the components within the dataset.
+After creating some visualizations, I then incorporated the data into a cloud service.
 
 ## Architecture
 
@@ -252,6 +188,70 @@ consensus (consensus), or confirmation via in-vivo confocal microscopy (confocal
 image within the dataset can be tracked by their lesion-id [@fa18-523-52-harvard].
 
 ## Implementation
+
+The first part in analyzing the HAM10000 dataset is to acquire it as well as the Anaconda
+platform. Once you access the Jupyter Notebook and import the necessary Python packages,
+you are ready to begin analyzing the data. Jupyter is a great tool to use in data analysis
+becuase you can easily manipulate your code line-by-line. By performing multiple plotting
+algorithms, you get a great visualization of relationships amongst the dataset. Of course,
+there are simple methods to analyze singular features and columns in your dataset. The 
+method below shows multiple statistical analyses on the age feature.
+
+```python
+db['age'].describe()
+
+count    9919.000000
+mean       52.067749
+std        16.686741
+min         5.000000
+25%        40.000000
+50%        50.000000
+75%        65.000000
+max        85.000000
+```
+
+The first algorithm that was used in my Jupyter-based script was a DataFrame comparison 
+between the localization and age features. This comparison shows the number of patients who
+recorded diagnosed skin lesions for different locations in addition to their differing
+ages. The Pandas DataFrame is a class that has the ability to take in a mutable, 
+two-dimensional data structure that contains labeled axes[@fa18-523-52-pandas]. It is known
+as the primary Pandas data structure. There are many examples of methods that can be used
+with this structure on Pandas documentation. To configure a visual of this correlation, the
+following code was imposed:
+
+```python
+#name the database file to your liking after completed download
+db=pd.read_csv('534data.csv')
+df3 = pd.DataFrame(np.random.randn(1000, 2), columns=['age', 'localization']).cumsum()
+df3['localization'] = pd.Series(list(range(len(db))))
+df3.plot(x='localization', y='age')
+```
+
+The generated plot is as shown below +@fig:localAge :
+
+![Correlation of localization and age](images/localAge.png){#fig:localAge}
+
+The visualization makes it obvious that there can be many different localizations per age
+group. This visualization also supports the need for varied datasets in the clinical domain. 
+It ultimately makes it quite difficult to make assumptions on singular lesion samples because
+the locations are varied no matter the age. 
+
+Another algorithm that was imposed on Jupyter Notebook to create a visual analysis was an 
+autocorrelation analysis. Autocorrelations are important in data analysis because they give
+important information regarding the quality of your dataset. Specifically, it checks randomness
+within your values with can also give clues to missing or empty values that you may have 
+missed when cleaning the data. Over time, the data is compared to see if it lies near zero. If
+the data is considered random, the time series autocorrelation will be near zero for all time-
+lag separations. If the series is considered non-random, then the autocorrelations will be 
+non-zero. The graph that is generated shows two horizontal lines that indicate 95% and 99% 
+confidence bands. Using the following code, I have generated the following autocorrelation plot
++@fig:autocorrelation. 
+
+![Autocorrelation](images/autocorrelation.png){#fig:autocorrelation}
+
+Since the values in the above autocorrelation plot are within the 95%, and some very close to the
+99% correlation lines, it can be said that the dataset is far from random. This is promising
+because it reinforces the quality and trust within the dataset. 
 
 ## Benchmark
 
