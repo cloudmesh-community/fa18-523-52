@@ -18,6 +18,8 @@ Keywords: KNIME, workflow, workbench
 
 :o::o: it does not say anything about cost ... free usage and so on
 
+:o: if you addressed the following, add a done before the circle
+
 :o: are the figures copied, if so you need citations also
 
 :o: you need to look in the epub to see the captions
