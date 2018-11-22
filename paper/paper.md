@@ -1,4 +1,4 @@
-# Guided Analytics Using Knime :wave: fa18-523-52
+# Guided Analytics Using Knime :wave: :exclamation: fa18-523-52
 
 | Anna Heine
 | avheine@iu.edu
@@ -12,9 +12,9 @@ Keywords: KNIME, workflow, workbench
 
 ---
 
-:o: obviously label for images are not unique enough and conflict with other students
+:o::o: obviously label for images are not unique enough and conflict with other students
 
-:o: image captions wrong
+:o::o: image captions wrong
 
 :o: lots of refernce missing. you need to use bibtex in paper.bib and use them here. you can reuse any bib from any student or the technology handbook
 
