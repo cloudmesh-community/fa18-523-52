@@ -16,6 +16,8 @@ Keywords: KNIME, workflow, workbench
 
 :o::o: image captions wrong
 
+:o::o: it does not say anything about cost ... free usage and so on
+
 :o: are the figures copied, if so you need citations also
 
 :o: you need to look in the epub to see the captions
