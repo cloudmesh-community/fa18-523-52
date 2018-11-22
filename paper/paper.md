@@ -16,6 +16,10 @@ Keywords: KNIME, workflow, workbench
 
 :o::o: image captions wrong
 
+:o: are the figures copied, if so you need citations also
+
+:o: you need to look in the epub to see the captions
+
 :o: lots of refernce missing. you need to use bibtex in paper.bib and use them here. you can reuse any bib from any student or the technology handbook
 
 :o: maybe the architecture diagram would help. I am not sure I understand what thsi technology is about from this description
