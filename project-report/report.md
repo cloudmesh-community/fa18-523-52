@@ -253,6 +253,23 @@ Since the values in the above autocorrelation plot are within the 95%, and some 
 99% correlation lines, it can be said that the dataset is far from random. This is promising
 because it reinforces the quality and trust within the dataset. 
 
+Another technical tool that I used to analyze my dataset was the KNIME Cloud Analytics Platform
+[@fa18-523-52-KNIMEcloud]. The KNIME cloud can be integrated via the Azure Marketplace or on 
+Amazon AWS. 
+
+:o: discuss KNIME tech and cloud integration
+
+Creating visualizations in the KNIME platform is extremely easy. The steps to create visual 
+analyses on KNIME's analytic platform are to first drag and drop the CSV Reader node into the 
+workflow. Once in the workflow, import the dataset from where you saved it locally by right-
+clicking on the CSV Reader node, and choosing Configure. Once the dialog box pops up, choose
+the number of rows and columns to include (I included them all). Then, choose which algorithm 
+you would like to impose on the dataset by searching the node directory again. For my first 
+analysis, I chose to do a basic graph showing the amount of different diagnostic descriptions
+per area (localization). 
+
+:o: put images for graphs, explain algorithms
+
 ## Benchmark
 
 ## Conclusion
