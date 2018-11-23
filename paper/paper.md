@@ -12,27 +12,27 @@ Keywords: KNIME, workflow, workbench
 
 ---
 
-:o::o: obviously label for images are not unique enough and conflict with other students
+done :o::o: obviously label for images are not unique enough and conflict with other students
 
-:o::o: image captions wrong
+done :o::o: image captions wrong
 
-:o::o: it does not say anything about cost ... free usage and so on
+done :o::o: it does not say anything about cost ... free usage and so on
 
-:o: if you addressed the following, add a done before the circle
+done :o: if you addressed the following, add a done before the circle
 
-:o: are the figures copied, if so you need citations also
+done :o: are the figures copied, if so you need citations also
 
-:o: you need to look in the epub to see the captions
+done :o: you need to look in the epub to see the captions
 
-:o: lots of refernce missing. you need to use bibtex in paper.bib and use them here. you can reuse any bib from any student or the technology handbook
+done :o: lots of refernce missing. you need to use bibtex in paper.bib and use them here. you can reuse any bib from any student or the technology handbook
 
-:o: maybe the architecture diagram would help. I am not sure I understand what thsi technology is about from this description
+done :o: maybe the architecture diagram would help. I am not sure I understand what thsi technology is about from this description
 
-:o: no mentioning of the workflow hub
+done :o: no mentioning of the workflow hub
 
-:o: no mentioning of integration with azure, aws
+done :o: no mentioning of integration with azure, aws
 
-:o: I propose to merege abstracts and conclusion in regular text to make this a chapter so we can put it in the handbook
+done :o: I propose to merege abstracts and conclusion in regular text to make this a chapter so we can put it in the handbook
 
 
 ## Introduction
@@ -97,13 +97,13 @@ on the left-hand side into the workflow space. To increase user collaboration an
 KNIME also includes a Workflow Hub [@fa18-523-52-hub]. This hub allows users to share their 
 workflows and make comments or suggest improvements to their designs. The components of a 
 KNIME server after installation are hosted on the same machine. The components include:
-a workflow repository, the executor, the server. +@fig:diagram shows the simple architecture
-of KNIME's server for a single user. +@fig:architecture shows the basic KNIME platform setup 
+a workflow repository, the executor, the server. +@fig:KNIMEdiagram shows the simple architecture
+of KNIME's server for a single user. +@fig:KNIMEarchitecture shows the basic KNIME platform setup 
 with graphs, repositories, and the workbench. 
 
-![@fa18-523-52-diagram](images/diagram.png){#fig:diagram}
+![KNIME DIAGRAM [@fa18-523-52-diagram]](images/diagram.png){#fig:KNIMEdiagram}
 
-![@fa18-523-52-architecture](images/architecture.png){#fig:architecture}
+![KNIME ARCHITECTURE [@fa18-523-52-architecture]](images/architecture.png){#fig:KNIMEarchitecture}
 
 An example of big data analysis hosted by KNIME is a store trying to compare its products
 sold over multiple store locations. The first step in the visualization process would be 
@@ -117,9 +117,9 @@ of user data. Under the Views tab, the user can search for different graphs or p
 scatter plot, in this case, would be a great way to visualize data from multiple items 
 within a store. You then must drag and drop it and connect it within the workflow like 
 before. You can then configure just how many rows that you would like to look at.
-+@fig:kmeans shows an example of user analysis by the drag and drop method.
++@fig:KNIMEkmeans shows an example of user analysis by the drag and drop method.
 
-![@fa18-523-52-kmeans](images/kmeans_flow.png){#fig:kmeans}
+![KNIME K-MEANS @fa18-523-52-kmeans](images/kmeans_flow.png){#fig:KNIMEkmeans}
 
 
 KNIME also includes nodes that can show missing values from certain datasets. KNIME 
@@ -142,11 +142,14 @@ Services. Azure allows KNIME to perform its analytical, machine learning, and de
 learning tasks on its integrated server. This application can be downloaded from Azure's 
 Marketplace. KNIME can also be incorporated with Amazon AWS. When KNIME is connected to 
 AWS resources, users can leverage the memory available while connected to the relational 
-database service to construct SQL queries visually. KNIME is a data analysis software 
-platform that allows for easy read and manipulation of large datasets that can ultimately be
-used to make inferences and predictions. Its user-friendly interface allows for a broad 
-integration of users and sometimes more efficient workflows. KNIME has several applications 
-for its users such as data modeling, machine learning, predictive analysis, and more. After 
-visualization, users can extract specific features from their data and implement it into a 
-model of their choice, which can then be exported as a CSV file. 
+database service to construct SQL queries visually. KNIME's Analytic Platform is a free
+service for all who use it. However, if you are using KNIME on a cloud service such as Azure
+or AWS, there are often subscription fees associated. Students and other organizations can 
+receive discounts or allocated amounts for a specified time of use. KNIME is a data analysis
+software platform that allows for easy read and manipulation of large datasets that can 
+ultimately be used to make inferences and predictions. Its user-friendly interface allows for
+a broad integration of users and sometimes more efficient workflows. KNIME has several 
+applications for its users such as data modeling, machine learning, predictive analysis, and 
+more. After visualization, users can extract specific features from their data and implement 
+it into a model of their choice, which can then be exported as a CSV file. 
 
