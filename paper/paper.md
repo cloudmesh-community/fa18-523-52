@@ -1,4 +1,4 @@
-# Guided Analytics Using Knime :wave: :exclamation: fa18-523-52
+# Guided Analytics Using Knime :smiley: :exclamation: fa18-523-52
 
 | Anna Heine
 | avheine@iu.edu
