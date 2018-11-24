@@ -266,9 +266,74 @@ clicking on the CSV Reader node, and choosing Configure. Once the dialog box pop
 the number of rows and columns to include (I included them all). Then, choose which algorithm 
 you would like to impose on the dataset by searching the node directory again. For my first 
 analysis, I chose to do a basic graph showing the amount of different diagnostic descriptions
-per area (localization). 
+per area (localization). The figure below shows this correlation, +@fig:dx. 
 
-:o: put images for graphs, explain algorithms
+![Descriptions by location](images/dx.png){#fig:dx}
+
+The above image shows proof that although some diseases are more relevant than others, it is
+important to have variable datasets such as these. Having so improves the accuracy of other
+diagnoses because of the increased comparison amongst individual units of data. It emphasizes
+that no matter the location, there can be many different types of apparent disease types. 
+Another created image is the visual of density among three data features. I chose to generate
+this graph with all three features along separate axes. The figure below indicates these 
+results +@fig:subplots52.
+
+![Subplots](images/subplots.png){#fig:subplots52}
+
+Using KNIME's analytical platform, I was able to use defined algorithms to further expand my
+visualizations. One algorithm I explored was that of parallel coordinates. Parallel coordinates
+is a graph that exemplifies the many differences between multiple variables and features. In the
+graph I've generated, the age and sex features are placed on their own axes. The lines that 
+connect the two features together are the actual values of the two features. Each line can be 
+seen as an accumulation of the points that lie upon each axis [@fa18-523-52-pc]. The downside of
+this algorithm is that sometimes the dataset can make the graph look somewhat dense. The figure 
+below shows the parallel coordinates of age and sex within the HAM10000 dataset, which is also 
+quite dense +@fig:pc.
+
+![Parallel Coordinates of Age and Sex](images/parallelcoordinates.png){#fig:pc}
+
+KNIME allowed me to create this visualization without the use of any code, as their GUI is 
+simple enough that programming is not always necessary. However, I also created this picture 
+through code in Jupyter Notebook. The following script shows how I was able to do this.
+
+```python
+from pandas.plotting import parallel_coordinates
+df=pd.DataFrame(np.random.randn(1000, 2), columns=['age', 'sex'])
+parallel_coordinates(df, 'dx')
+```
+
+Another algorithm I incorporated was logistic regression. This type of analysis compares a
+nominal independent and dependent variable. The regression model is used to predict a 
+possible outcome between the two given variables[@fa18-523-52-lg]. The logical question I thought
+of when performing this analysis was if the location of skin cancer on a person's body had any 
+influence or correlation on which type of cancer it was. 
+
+:o: include lit review on this topic
+
+The following image +@fig:lg52 was created to show the logistic regression in this dataset. It 
+shows that the relationship between cause of diagnosis (description/dx) and location is very 
+much varied. There are, of course, some outliers, but it seems as though one can conclude
+that many different types of skin cancers can occur in numerous locations. This can be 
+useful for medical professionals or students who are using this dataset as a training 
+tool. It can also be said that conclusions can not automatically be made on what type of
+cancer is in a given region just by initial glance or statistics. 
+
+![Logistic Regression of dx and localization features](images/logisticRegression.png){#fig:lg52}
+
+A good algorithm to test the relationship between diseases and the sexes is a regression tree. A
+regression tree is an algorithm that predicts the results of two, usually categorical, variables.
+The regression model is quite easy to interpret. Using KNIME's analytical platform, I conducted 
+a predictive regression tree diagram of the sexes within the HAM10000 dataset. The results show 
+that the dataset includes a higher number of diseased males than females. The figure below shows 
+the results in the model of the actual regression tree +@fig:tree52. This analysis is also 
+important to know because there is no evidence that strongly supports a specific sex to have a
+greater or lesser chance of developing a disease. It is easy to see that there are 54.7% of males
+with diseases in the dataset and 48.8% of females with diseases. 
+
+![Regression Tree of the Sexes](images/regressionTree.png){#fig:tree52}
+
+
+
 
 ## Benchmark
 
