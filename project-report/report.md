@@ -330,7 +330,7 @@ important to know because there is no evidence that strongly supports a specific
 greater or lesser chance of developing a disease. It is easy to see that there are 54.7% of males
 with diseases in the dataset and 48.8% of females with diseases. 
 
-![Regression Tree of the Sexes](images/regressionTree.png){#fig:tree52}
+![Regression Tree of the Sexes](images/regresstionTree.png){#fig:tree52}
 
 
 
