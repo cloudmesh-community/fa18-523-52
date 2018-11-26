@@ -34,6 +34,7 @@ done :o: no mentioning of integration with azure, aws
 
 done :o: I propose to merege abstracts and conclusion in regular text to make this a chapter so we can put it in the handbook
 
+:o: figure captions must not be all caps
 
 ## Introduction
 
