@@ -148,8 +148,6 @@ the Jupyter notebook, which I have previously mentioned. Some examples of the ty
 matplotlib includes is histograms, bar charts, scatterplots, errorcharts, power spectra, and
 more[@fa18-523-52-matplotlib]. 
 
-
-
 ## Installation
 To install Jupyter itself you must already have Python 2.7 or Python 3.3 or greater. It
 is recommended to go ahead and download Anaconda, like I did, so that all of your packages 
@@ -255,9 +253,53 @@ because it reinforces the quality and trust within the dataset.
 
 Another technical tool that I used to analyze my dataset was the KNIME Cloud Analytics Platform
 [@fa18-523-52-KNIMEcloud]. The KNIME cloud can be integrated via the Azure Marketplace or on 
-Amazon AWS. 
+Amazon AWS. KNIME [@fa18-523-52-KNIME] stands for KoNstanz Information MinEr and is an open source
+data analytics software that creates services and applications for data science projects. KNIME 
+allows its users to create visual workflows with a user-friendly drag and drop graphical interface
+that depletes the need for any programming. However, KNIME does allow implementation of other 
+scripting languages such as Python [@fa18-523-52-KNIME] or R [@fa18-523-52-KNIME] that creates 
+connections to abilities within Apache Spark or other machine learning tools. KNIME allows imports
+of datasets from a variety of formats, some of which include CSV [@fa18-523-52-machine] , PDF 
+[@fa18-523-52-machine] , JSON [@fa18-523-52-JSON] and more. The workflows and visualizations that 
+KNIME produces allows export in many of these formats as well. It also supports several unstructured
+data types from images, documents, and certain networks. KNIME operates by a node system that 
+includes embedded modules that help its users build their workflow. With this node system, users can
+make changes at every step of their analysis to ensure the most current version. KNIME also provides 
+detailed visualizations from a set of defined graphs and charts which can lead to predictive analyses 
+and machine learning implementations. Users can shape their data by a variety of mathematical models 
+such as statistical tests, standard deviations, and means. Users can even select specific features for
+use in possible machine learning datasets and apply filters to mark out some of the data if needed.
 
-:o: discuss KNIME tech and cloud integration
+KNIME is a platform that can perform intense data analytics on a graphical user interface and 
+incorporate a user-friendly workflow. It incorporates large or small data sets and even projects as 
+broad as deep learning. KNIME is diverse in that its users do not necessarily need to know any coding 
+languages to use it. KNIME is a process-oriented, single base workflow with basic input/output 
+manipulations. KNIME is an open source platform that uses thousands of its documented nodes within the
+node repository for use in the KNIME workbench. A node is a single processing point of data manipulations
+within your workflow. A workflow is described as a sequence of steps a user follows in their platform that
+is used to complete their final product. The collection of nodes that creates a KNIME workbench is able to
+be executed locally or within the KNIME web portal on its own server. The workflow that KNIME follows first
+begins with data collection, data cleaning, data integration, and finally, feature extraction. This workflow
+allows for large files such as a CSV to be accessed through the web portal and it can therefore be 
+manipulated through several wizards [@fa18-523-52-guided].
+
+KNIME has the ability to be integrated with other techonlogies for larger open-source projects. 
+These cloud services allow for user's projects to be analyzed even further. For example, KNIME can
+be used with Amazon AWS [@fa18-523-52-aws] and Azure [@fa18-523-52-azure]. KNIME's platform can be
+hosted on Microsoft Azure Cloud Services. Azure allows KNIME to perform its analytical, machine g
+learning, and deep learning tasks on its integrated server. This application can be downloaded from
+Azure's Marketplace. KNIME can also be incorporated with Amazon AWS. When KNIME is connected to AWS
+resources, users can leverage the memory available while connected to the relational database 
+service to construct SQL queries visually. KNIME's Analytic Platform is a free service for all who 
+use it. However, if you are using KNIME on a cloud service such as Azure or AWS, there are often 
+subscription fees associated. Students and other organizations can receive discounts or allocated 
+amounts for a specified time of use. KNIME is a data analysis software platform that allows for easy
+read and manipulation of large datasets that can ultimately be used to make inferences and 
+predictions. Its user-friendly interface allows for a broad integration of users and sometimes more 
+efficient workflows. KNIME has several applications for its users such as data modeling, machine 
+learning, predictive analysis, and more. After visualization, users can extract specific features 
+from their data and implement it into a model of their choice, which can then be exported as a CSV 
+file.
 
 Creating visualizations in the KNIME platform is extremely easy. The steps to create visual 
 analyses on KNIME's analytic platform are to first drag and drop the CSV Reader node into the 
