@@ -359,15 +359,18 @@ be made on what type of cancer is in a given region just by initial glance or st
 ![Logistic Regression of dx and localization features](images/logisticRegression.png){#fig:lg52}
 
 It turns out that our analysis is correct in that different types of cancers can occur in varied
-locations. Therefore, the relationship between these two features is not very strong. Everyone 
-knows that one of the most common risks for skin cancer is sun exposure and ultraviolet light. 
-Melanoma (mel) and basal cell carcinoma (bcc), most often caused by these factors, can occur in 
-areas such as the face, arms, chest, back, scalp, ears, neck, and so on [@fa18-523-52-cancsociety].
+locations. The figure below, +@fig:locations52, actually shows the amount of different localizations
+within the dataset. Therefore, the relationship between these two features is not very strong. 
+Everyone knows that one of the most common risks for skin cancer is sun exposure and ultraviolet 
+light. Melanoma (mel) and basal cell carcinoma (bcc), most often caused by these factors, can occur
+in areas such as the face, arms, chest, back, scalp, ears, neck, and so on [@fa18-523-52-cancsociety].
 However, skin cancers can also occur in areas where the sun cannot reach [fa18-523-52-abchealth].
 These occurances can be caused by a genetic mutation or a change in gene regulation that causes
 healthy cells to divide with errors. These mutated cells could then invade other parts of the body
 and spread. It has also been seen that skin cancers can possibly be caused by pollutants or toxins
 in the environment [fa18-523-52-abchealth]. 
+
+![Skin Cancer Localizations Within the HAM10000 Dataset](images/localizations.png){#fig:locations52}
 
 A good algorithm to test the relationship between diseases and the sexes is a regression tree. A
 regression tree is an algorithm that predicts the results of two, usually categorical, variables.
@@ -380,9 +383,6 @@ greater or lesser chance of developing a disease. It is easy to see that there a
 with diseases in the dataset and 48.8% of females with diseases. 
 
 ![Regression Tree of the Sexes](images/regresstionTree.png){#fig:tree52}
-
-
-
 
 ## Benchmark
 
