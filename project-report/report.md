@@ -252,8 +252,8 @@ Since the values in the above autocorrelation plot are within the 95%, and some 
 because it reinforces the quality and trust within the dataset. 
 
 Another technical tool that I used to analyze my dataset was the KNIME Cloud Analytics Platform
-[@fa18-523-52-KNIMEcloud]. The KNIME cloud can be integrated via the Azure Marketplace or on 
-Amazon AWS. KNIME [@fa18-523-52-KNIME] stands for KoNstanz Information MinEr and is an open source
+[@fa18-523-52-KNIME]. The KNIME cloud can be integrated via the Azure Marketplace or on 
+Amazon AWS. KNIME stands for KoNstanz Information MinEr and is an open source
 data analytics software that creates services and applications for data science projects. KNIME 
 allows its users to create visual workflows with a user-friendly drag and drop graphical interface
 that depletes the need for any programming. However, KNIME does allow implementation of other 
@@ -348,19 +348,26 @@ Another algorithm I incorporated was logistic regression. This type of analysis 
 nominal independent and dependent variable. The regression model is used to predict a 
 possible outcome between the two given variables[@fa18-523-52-lg]. The logical question I thought
 of when performing this analysis was if the location of skin cancer on a person's body had any 
-influence or correlation on which type of cancer it was. 
-
-:o: include lit review on this topic
-
-The following image +@fig:lg52 was created to show the logistic regression in this dataset. It 
-shows that the relationship between cause of diagnosis (description/dx) and location is very 
-much varied. There are, of course, some outliers, but it seems as though one can conclude
-that many different types of skin cancers can occur in numerous locations. This can be 
-useful for medical professionals or students who are using this dataset as a training 
-tool. It can also be said that conclusions can not automatically be made on what type of
-cancer is in a given region just by initial glance or statistics. 
+influence or correlation on which type of cancer it was. The following image +@fig:lg52 was 
+created to show the logistic regression in this dataset. It shows that the relationship between
+cause of diagnosis (description/dx) and location is very much varied. There are, of course, some
+outliers, but it seems as though one can conclude that many different types of skin cancers can 
+occur in numerous locations. This can be useful for medical professionals or students who are 
+using this dataset as a training tool. It can also be said that conclusions can not automatically
+be made on what type of cancer is in a given region just by initial glance or statistics. 
 
 ![Logistic Regression of dx and localization features](images/logisticRegression.png){#fig:lg52}
+
+It turns out that our analysis is correct in that different types of cancers can occur in varied
+locations. Therefore, the relationship between these two features is not very strong. Everyone 
+knows that one of the most common risks for skin cancer is sun exposure and ultraviolet light. 
+Melanoma (mel) and basal cell carcinoma (bcc), most often caused by these factors, can occur in 
+areas such as the face, arms, chest, back, scalp, ears, neck, and so on [@fa18-523-52-cancsociety].
+However, skin cancers can also occur in areas where the sun cannot reach [fa18-523-52-abchealth].
+These occurances can be caused by a genetic mutation or a change in gene regulation that causes
+healthy cells to divide with errors. These mutated cells could then invade other parts of the body
+and spread. It has also been seen that skin cancers can possibly be caused by pollutants or toxins
+in the environment [fa18-523-52-abchealth]. 
 
 A good algorithm to test the relationship between diseases and the sexes is a regression tree. A
 regression tree is an algorithm that predicts the results of two, usually categorical, variables.
