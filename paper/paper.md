@@ -12,30 +12,6 @@ Keywords: KNIME, workflow, workbench
 
 ---
 
-done :o::o: obviously label for images are not unique enough and conflict with other students
-
-done :o::o: image captions wrong
-
-done :o::o: it does not say anything about cost ... free usage and so on
-
-done :o: if you addressed the following, add a done before the circle
-
-done :o: are the figures copied, if so you need citations also
-
-done :o: you need to look in the epub to see the captions
-
-done :o: lots of refernce missing. you need to use bibtex in paper.bib and use them here. you can reuse any bib from any student or the technology handbook
-
-done :o: maybe the architecture diagram would help. I am not sure I understand what thsi technology is about from this description
-
-done :o: no mentioning of the workflow hub
-
-done :o: no mentioning of integration with azure, aws
-
-done :o: I propose to merege abstracts and conclusion in regular text to make this a chapter so we can put it in the handbook
-
-:o: figure captions must not be all caps
-
 ## Introduction
 
 KNIME [@fa18-523-52-KNIME] stands for KoNstanz Information MinEr and is an open source data 
@@ -102,9 +78,9 @@ a workflow repository, the executor, the server. +@fig:KNIMEdiagram shows the si
 of KNIME's server for a single user. +@fig:KNIMEarchitecture shows the basic KNIME platform setup 
 with graphs, repositories, and the workbench. 
 
-![KNIME DIAGRAM [@fa18-523-52-diagram]](images/diagram.png){#fig:KNIMEdiagram}
+![KNIME Diagram [@fa18-523-52-diagram]](images/diagram.png){#fig:KNIMEdiagram}
 
-![KNIME ARCHITECTURE [@fa18-523-52-architecture]](images/architecture.png){#fig:KNIMEarchitecture}
+![KNIME Architecture [@fa18-523-52-architecture]](images/architecture.png){#fig:KNIMEarchitecture}
 
 An example of big data analysis hosted by KNIME is a store trying to compare its products
 sold over multiple store locations. The first step in the visualization process would be 
@@ -120,7 +96,7 @@ within a store. You then must drag and drop it and connect it within the workflo
 before. You can then configure just how many rows that you would like to look at.
 +@fig:KNIMEkmeans shows an example of user analysis by the drag and drop method.
 
-![KNIME K-MEANS @fa18-523-52-kmeans](images/kmeans_flow.png){#fig:KNIMEkmeans}
+![KNIME K-Means @fa18-523-52-kmeans](images/kmeans_flow.png){#fig:KNIMEkmeans}
 
 
 KNIME also includes nodes that can show missing values from certain datasets. KNIME 
