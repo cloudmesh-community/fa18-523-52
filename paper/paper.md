@@ -96,7 +96,7 @@ within a store. You then must drag and drop it and connect it within the workflo
 before. You can then configure just how many rows that you would like to look at.
 +@fig:KNIMEkmeans shows an example of user analysis by the drag and drop method.
 
-![KNIME K-Means @fa18-523-52-kmeans](images/kmeans_flow.png){#fig:KNIMEkmeans}
+![KNIME K-Means [@fa18-523-52-kmeans]](images/kmeans_flow.png){#fig:KNIMEkmeans}
 
 
 KNIME also includes nodes that can show missing values from certain datasets. KNIME 
