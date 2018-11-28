@@ -47,7 +47,7 @@ around multiple aspects of a disease. For example, some datasets include functio
 and characteristics of DNA and RNA, proteins, cell types, tissues, organs, and more
 [@fa18-523-52-intro]. The ability for these models to evolve and grow are what will 
 advance the predictive analysis so desired in the field today. The sources of big data 
-are varied. Some of which include administrative claim records, electronic health
+are varied. Some of which include administrative claim records, health
 records, the internet, medical imaging, and clinical trials [@fa18-523-52-ncbi]. 
 
 Despite the vast number of sources, medical big datasets can be quite different than 
@@ -386,6 +386,36 @@ with diseases in the dataset and 48.8% of females with diseases.
 
 ## Benchmark
 
+The presence of big data analysis in healthcare is increasing exponentially. The burden placed on 
+medical professionals to read and understand each patient's medical history as well as handling the
+current visit is sometimes too much to ask. The use of big data in the healthcare sector would make
+the time spent analysing each patient's medical history much shorter, resulting in an increased 
+amount of face-to-face communication time between the patient and professional. Predictive analysis 
+is a large advantage taking place in healthcare's use of big data today. Predictive analyses can be
+used to identify risks for future diseases among patients and therefore, doctors can use that 
+information to prescribe certain medications, health-promoting activities, and other preventative 
+measures. As mentioned earlier, electronic health records are now being used as one of the most 
+reliable forms of big data in healthcare. It is obvious, especially in the modern age, that we 
+realize people's health is ever-changing and there are multiple factors that weigh in for almost 
+every medical situation. Use of big data in healthcare setting is also being seen in medical 
+research. Analysis of recovery methods for certain drugs and treatments in cases of cancer can be 
+used to discover the best-working plan [@fa18-523-52-realworld].  
+
 ## Conclusion
 
+The use of big data analytics in heathcare is variable, but has an exciting future. The teaming up 
+of data scientists with medical professionals will expand society's knowledge for determining the 
+identity of a disease or even a patient's future. Big data in healthcare has the ability to give us
+inferences to outcomes and diseases we may have not even seen coming. The combination of these two 
+fields will definitely speed up research and increase the rate of discovery from both sides. This 
+starry-eyed future, however, comes at a cost. Acquiring reliable datasets are expensive, the data 
+must be kept confidential, and it must also be extremely accurate regarding its inclusion requirements.
+The HAM10000 dataset, which satisifies all of the above credentials, is one of many big datasets being
+used for analysis among medical professionals. The analyses performed on this dataset is just the 
+beginning of what can truly be done to explore further information into the relationship between the 
+donated skin lesions and its multiple features. 
+
 ## Acknowledgement
+
+I would like to thank Professor Geoffrey Fox and Professor Gregor von Laszewski for giving me the 
+inspiration to create the analyses displayed in this project.
