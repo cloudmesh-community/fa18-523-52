@@ -86,14 +86,16 @@ than 5% error rates.
 ## Requirements
 
 This project requires Python 2.7 or greater to integrate the Pandas and NumPy packages. It 
-also requires at least 420 KB of storage to hold the HAM10000 dataset. The project also 
-requires Anaconda to access Jupyter Notebook with Numpy and Pandas packages installed. 
+requires at least 420 KB of storage to hold the HAM10000 dataset. The project also 
+requires the Anaconda platform to access Jupyter Notebook with Numpy and Pandas packages 
+installed. The cloud service analytics were performed on KNIME's Cloud Analytics Platform. 
 
 ## Design 
 
-The design of the project was to obtain the dataset and test it on a number of web services.
-First, I tested it on Jupyter Notebook to get a baseline of the components within the dataset.
-After creating some visualizations, I then incorporated the data into a cloud service.
+The design of the project was to obtain the dataset and test it on a web services.
+First, I tested the dataset on Jupyter Notebook to get a baseline of the components.
+After creating some visualizations, I then incorporated the data into KNIME's Analytics Cloud 
+Platform.
 
 ## Architecture
 
