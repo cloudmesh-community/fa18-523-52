@@ -93,19 +93,19 @@ installed. The cloud service analytics were performed on KNIME's Cloud Analytics
 ## Design 
 
 The design of the project was to obtain the dataset and test it on a web services.
-First, I tested the dataset on Jupyter Notebook to get a baseline of the components.
-After creating some visualizations, I then incorporated the data into KNIME's Analytics Cloud 
+First, we tested the dataset on Jupyter Notebook to get a baseline of the components.
+After creating some visualizations, we then incorporated the data into KNIME's Analytics Cloud 
 Platform.
 
 ## Architecture
 
-Before I made any implementations on this project, I realized that I would be using
-multiple software packages. Therefore, I wanted to ensure that they were all in the
-same place. To do this, I installed Anaconda. Anaconda is an open-source, free
+Before we made any implementations on this project, we realized that we would be using
+multiple software packages. Therefore, we wanted to ensure that they were all in the
+same place. To do this, we installed Anaconda. Anaconda is an open-source, free
 distribution software with Python and R available packages already installed. It's 
 main purpose is to provide simple tracking of these packages with an easy, user-friendly
 dashboard design[@fa18-523-52-conda]. Each version of its packages are managed by its
-package management system, Conda. In Anaconda, I used Jupyter and Jupyter Notebook to 
+package management system, Conda. In Anaconda, we used Jupyter and Jupyter Notebook to 
 perform most of my data analysis. Jupyter allows for data manipulation across many 
 programming languages. Jupyter is also an open-source web application that allows for 
 distribution of documents, code, and other projects for collaboration. It has many uses:
@@ -137,22 +137,22 @@ data analysis features that are widely used in data visualization. Pandas is abl
 incorporate many types of data formats as well. For example, Pandas can read in tabular 
 data from SQL or Excel, it can obtain ordered or unordered data, arbitrarily matrixed data,
 and it can even read in data that has no labels. Pandas is able to handle missing values and
-also non-floating point data by labeling it as NaN. One important feature I specifically
+also non-floating point data by labeling it as NaN. One important feature we specifically
 used was to convert data that incorporated NumPy structures into DataFrame objects. This 
 feature allowed Pandas to easily read and control the data into an acceptable format that
-was able to successfully create a readable graph. Another convienient tool I used while 
+was able to successfully create a readable graph. Another convienient tool we used while 
 manipulating my dataset was Pandas ability to slice and create subsets of my data. This 
-allowed me to create new tables and graphs from carefully selected data where I saw possible
+allowed me to create new tables and graphs from carefully selected data where we saw possible
 correlations. To create detailed visualizations, Pandas incorporates matplotlib API 
 [@fa18-523-52-pandas]. Matplotlib allows the import of visualization libraries that can be
 read by Pandas. Matplotlib is a 2D plotting library that can be used in Python scripts and
-the Jupyter notebook, which I have previously mentioned. Some examples of the types of plots
+the Jupyter notebook, which we have previously mentioned. Some examples of the types of plots
 matplotlib includes is histograms, bar charts, scatterplots, errorcharts, power spectra, and
 more[@fa18-523-52-matplotlib]. 
 
 ## Installation
 To install Jupyter itself you must already have Python 2.7 or Python 3.3 or greater. It
-is recommended to go ahead and download Anaconda, like I did, so that all of your packages 
+is recommended to go ahead and download Anaconda, like we did, so that all of your packages 
 are in one place. To download the latest version of Anaconda, follow the code below:
 
 ```python
@@ -175,7 +175,7 @@ version on Anaconda.
 
 ## Dataset
 
-The dataset I have chosen is often used in training tools for medical
+The dataset we have chosen is often used in training tools for medical
 professionals and is one of the only few available skin lesion datasets. The HAM10000 
 (Human Against Machine with 10000 training images) dataset contains dermatoscopic images
 from different populations that include all general diagnostic categories that have been 
@@ -244,7 +244,7 @@ missed when cleaning the data. Over time, the data is compared to see if it lies
 the data is considered random, the time series autocorrelation will be near zero for all time-
 lag separations. If the series is considered non-random, then the autocorrelations will be 
 non-zero. The graph that is generated shows two horizontal lines that indicate 95% and 99% 
-confidence bands. Using the following code, I have generated the following autocorrelation plot
+confidence bands. Using the following code, we have generated the following autocorrelation plot
 +@fig:autocorrelation. 
 
 ![Autocorrelation](images/autocorrelation.png){#fig:autocorrelation}
@@ -253,7 +253,7 @@ Since the values in the above autocorrelation plot are within the 95%, and some 
 99% correlation lines, it can be said that the dataset is far from random. This is promising
 because it reinforces the quality and trust within the dataset. 
 
-Another technical tool that I used to analyze my dataset was the KNIME Cloud Analytics Platform
+Another technical tool that we used to analyze my dataset was the KNIME Cloud Analytics Platform
 [@fa18-523-52-KNIME]. The KNIME cloud can be integrated via the Azure Marketplace or on 
 Amazon AWS. KNIME stands for KoNstanz Information MinEr and is an open source
 data analytics software that creates services and applications for data science projects. KNIME 
@@ -307,9 +307,9 @@ Creating visualizations in the KNIME platform is extremely easy. The steps to cr
 analyses on KNIME's analytic platform are to first drag and drop the CSV Reader node into the 
 workflow. Once in the workflow, import the dataset from where you saved it locally by right-
 clicking on the CSV Reader node, and choosing Configure. Once the dialog box pops up, choose
-the number of rows and columns to include (I included them all). Then, choose which algorithm 
+the number of rows and columns to include (we included them all). Then, choose which algorithm 
 you would like to impose on the dataset by searching the node directory again. For my first 
-analysis, I chose to do a basic graph showing the amount of different diagnostic descriptions
+analysis, we chose to do a basic graph showing the amount of different diagnostic descriptions
 per area (localization). The figure below shows this correlation, +@fig:dx. 
 
 ![Descriptions by location](images/dx.png){#fig:dx}
@@ -318,14 +318,14 @@ The above image shows proof that although some diseases are more relevant than o
 important to have variable datasets such as these. Having so improves the accuracy of other
 diagnoses because of the increased comparison amongst individual units of data. It emphasizes
 that no matter the location, there can be many different types of apparent disease types. 
-Another created image is the visual of density among three data features. I chose to generate
+Another created image is the visual of density among three data features. We chose to generate
 this graph with all three features along separate axes. The figure below indicates these 
 results +@fig:subplots52.
 
 ![Subplots](images/subplots.png){#fig:subplots52}
 
-Using KNIME's analytical platform, I was able to use defined algorithms to further expand my
-visualizations. One algorithm I explored was that of parallel coordinates. Parallel coordinates
+Using KNIME's analytical platform, we was able to use defined algorithms to further expand my
+visualizations. One algorithm we explored was that of parallel coordinates. Parallel coordinates
 is a graph that exemplifies the many differences between multiple variables and features. In the
 graph I've generated, the age and sex features are placed on their own axes. The lines that 
 connect the two features together are the actual values of the two features. Each line can be 
@@ -337,8 +337,8 @@ quite dense +@fig:pc.
 ![Parallel Coordinates of Age and Sex](images/parallelcoordinates.png){#fig:pc}
 
 KNIME allowed me to create this visualization without the use of any code, as their GUI is 
-simple enough that programming is not always necessary. However, I also created this picture 
-through code in Jupyter Notebook. The following script shows how I was able to do this.
+simple enough that programming is not always necessary. However, we also created this picture 
+through code in Jupyter Notebook. The following script shows how we was able to do this.
 
 ```python
 from pandas.plotting import parallel_coordinates
@@ -346,9 +346,9 @@ df=pd.DataFrame(np.random.randn(1000, 2), columns=['age', 'sex'])
 parallel_coordinates(df, 'dx')
 ```
 
-Another algorithm I incorporated was logistic regression. This type of analysis compares a
+Another algorithm we incorporated was logistic regression. This type of analysis compares a
 nominal independent and dependent variable. The regression model is used to predict a 
-possible outcome between the two given variables[@fa18-523-52-lg]. The logical question I thought
+possible outcome between the two given variables[@fa18-523-52-lg]. The logical question we thought
 of when performing this analysis was if the location of skin cancer on a person's body had any 
 influence or correlation on which type of cancer it was. The following image +@fig:lg52 was 
 created to show the logistic regression in this dataset. It shows that the relationship between
@@ -376,7 +376,7 @@ in the environment [fa18-523-52-abchealth].
 
 A good algorithm to test the relationship between diseases and the sexes is a regression tree. A
 regression tree is an algorithm that predicts the results of two, usually categorical, variables.
-The regression model is quite easy to interpret. Using KNIME's analytical platform, I conducted 
+The regression model is quite easy to interpret. Using KNIME's analytical platform, we conducted 
 a predictive regression tree diagram of the sexes within the HAM10000 dataset. The results show 
 that the dataset includes a higher number of diseased males than females. The figure below shows 
 the results in the model of the actual regression tree +@fig:tree52. This analysis is also 
@@ -419,5 +419,5 @@ donated skin lesions and its multiple features.
 
 ## Acknowledgement
 
-I would like to thank Professor Geoffrey Fox and Professor Gregor von Laszewski for giving me the 
+Thanks are given to Professor Geoffrey Fox and Professor Gregor von Laszewski for providing the 
 inspiration to create the analyses displayed in this project.
