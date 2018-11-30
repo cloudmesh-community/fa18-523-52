@@ -1,0 +1,13 @@
+#to install Anaconda, see anaconda.py
+
+#in case Pandas and Numpy aren't already included in Anaconda installation enter these into the command line
+> pip install pandas
+> pip install numpy
+
+#run Jupyter Notebook from the command prompt
+> jupyter notebook
+
+#find all other visualization code in code.py
+
+#Code unnecessary for creating visualizations on KNIME Platform as it functions by the GUI drag and drop method. 
+#See report for detailed instructions. 
