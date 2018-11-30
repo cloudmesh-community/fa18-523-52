@@ -1,4 +1,4 @@
-#to install Anaconda, see anaconda.py
+#to install Anaconda, see downloadAnaconda.py
 
 #in case Pandas and Numpy aren't already included in Anaconda installation enter these into the command line
 > pip install pandas
