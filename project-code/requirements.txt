@@ -7,7 +7,7 @@
 #run Jupyter Notebook from the command prompt
 > jupyter notebook
 
-#find all other visualization code in code.py
+#find all other visualization code in generateGraphs.py
 
 #Code unnecessary for creating visualizations on KNIME Platform as it functions by the GUI drag and drop method. 
 #See report for detailed instructions. 
