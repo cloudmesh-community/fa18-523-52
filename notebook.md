@@ -59,3 +59,17 @@
 - deployed data on Jupyter
 - analysed data and made visuals using pandas and numpy
 - updated report, code, and image folders on github
+
+11/18/18-11/25/18
+- Thanksgiving break, no class
+- added to project report
+- finalised initial visualizations on Jupyter
+- deployed KNIME Cloud on Azure and created visuals
+- added code on github
+- added images on github
+- corrected chapter errors
+
+11/25/18-12/02/18
+- class cancelled
+- finalised report and code
+- added setup instructions
