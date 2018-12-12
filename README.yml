@@ -5,18 +5,30 @@ owner:
   hid: "fa18-523-52"
   community: "e534"
   semester: fa18
+  course: "Big Data Applications"
+  online: "No"
   profile: https://github.com/avheine
+  
+notebook: 
+  - url: https://github.com/cloudmesh-community/fa18-523-52/blob/master/notebook.md
+  - Status: 1
+  
 technologies:
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/titan-db.md
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/tycoon.md
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/memcached.md
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/amazon-sns.md
+  - Status: 1
+  
 paper:
   - keyword: Knime
     title: Guided Analytics Using Knime
     url: https://github.com/cloudmesh-community/fa18-523-52/blob/master/paper/paper.md
+    Status: 1
+    
 project:
   - keyword: fa18-523-52, lesion, medical
     title: Morphological Image-based Profiling of Skin Lesions for Scientific Community
     url: https://github.com/cloudmesh-community/fa18-523-52/blob/master/project-report/report.md
     code: https://github.com/cloudmesh-community/fa18-523-52/tree/master/project-code
+    Status: 1
