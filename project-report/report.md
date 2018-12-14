@@ -1,4 +1,4 @@
-# Morphological Image-based Profiling of Skin Lesions for Scientific Community :smiley: fa18-523-52
+# Morphological Image-based Profiling of Skin Lesions for Scientific Community
 
 | Anna Heine
 | avheine@iu.edu
